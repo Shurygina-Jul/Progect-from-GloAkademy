@@ -24,7 +24,8 @@ body {
 }
 .hero {
   padding-top: 50px;
-  background: linear-gradient(0.01deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
+  background: linear-gradient(0deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
+  /* background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%); */
   padding-bottom: 155px;
 }
 .hero-header {
@@ -116,6 +117,74 @@ body {
   font-size: 16px;
   line-height: 28px;
   margin: 0;
+}
+
+/*progects  */
+.progects {
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+}
+.progects-slide {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.progect-text {
+  flex-basis: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.progect-title {
+  flex-basis: 100%;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 41px;
+}
+.progect-time,
+.progect-cost {
+  flex-basis: 50%;
+  margin-bottom: 44px;
+}
+.progect-time,
+.progect-cost,
+.progect-feedback {
+  display: flex;
+  align-items: flex-start;
+}
+.progect-subtitle {
+  margin: 0;
+  margin-bottom: 7px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+.progect-paragraf {
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+.progect-icon {
+  margin-right: 16px;
+}
+.progect-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 44px;
+}
+.progect-bullet {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #ffbb01;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.progect-bullet-active {
+  background-color: #ffbb01;
 }
 /* contacts */
 .contacts-form {

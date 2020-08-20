@@ -9,8 +9,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css\style.css" />
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    <link rel="stylesheet" href="css\swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css\animate.min.css" />
   </head>
   <body>
     <header class="hero">
@@ -47,7 +47,7 @@
             <button class="button hero-button">Бесплатная консультация</button>
           </div>
           <!-- /.hero-text -->
-          <div class="hero-avatar wow fadeIn" data-wow-delay="1.5s"></div>
+          <div class="hero-avatar wow fadeIn"></div>
           <!-- /.hero-avatar -->
         </div>
         <!-- /.hero-content -->
@@ -137,6 +137,130 @@
         <!-- /.container -->
       </sectuion>
       <!-- /.features -->
+      <section class="section progects">
+        <div class="container">
+          <h2 class="section-title">Последние проекты</h2>
+          <!-- Slider main container -->
+          <div class="swiper-container progects-slider">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide progects-slide">
+                <img
+                  src="/image/img/project-img.jpg"
+                  alt="Сайт строительной фирмы “Велстрой”"
+                  class="progect-image"
+                />
+                <div class="progect-text">
+                  <h3 class="progect-title">
+                    Сайт строительной фирмы “Велстрой”
+                  </h3>
+                  <div class="progect-time">
+                    <img
+                      src="image/img/time-icon.svg"
+                      alt="Срок"
+                      class="progect-icon"
+                    />
+                    <div class="progect-description">
+                      <div class="progect-subtitle">Сроки</div>
+                      <p class="progect-paragraf">4 рабочих дня</p>
+                    </div>
+                  </div>
+                  <!-- /.progect-time -->
+                  <div class="progect-cost">
+                    <img
+                      src="image/img/cost-icon.svg"
+                      alt="Стоимость"
+                      class="progect-icon"
+                    />
+                    <div class="progect-description">
+                      <div class="progect-subtitle">Стоимость</div>
+                      <p class="progect-paragraf">14 000 рублей</p>
+                    </div>
+                  </div>
+                  <!-- /.progect-cost -->
+                  <div class="progect-feedback">
+                    <img
+                      src="image/img/feedback-icon.svg"
+                      alt="Отзыв клиента"
+                      class="progect-icon"
+                    />
+                    <div class="progect-description">
+                      <div class="progect-subtitle">Отзыв клиента</div>
+                      <p class="progect-paragraf">
+                        Мне понравилось работать с Артемом, потому что он все
+                        время был на связи и предлагал свои решения, когда мы
+                        заходили в тупик с дизайном. Мне нужны были закрывающие
+                        документы для бухгалтерии, и Артем — тот редкий
+                        фрилансер, у которого с документами все в порядке
+                      </p>
+                    </div>
+                  </div>
+                  <!-- /.progect-feedback -->
+                </div>
+                <!-- /.progect-text -->
+              </div>
+              <div class="swiper-slide progects-slide">
+                <img
+                  src="/image/img/project-img.jpg"
+                  alt="Сайт строительной фирмы “Велстрой”"
+                  class="progect-image"
+                />
+                <div class="progect-text">
+                  <h3 class="progect-title">
+                    Сайт строительной фирмы “Стройтехмонтаж”
+                  </h3>
+                  <div class="progect-time">
+                    <img
+                      src="image/img/time-icon.svg"
+                      alt="Срок"
+                      class="progect-icon"
+                    />
+                    <div class="progect-description">
+                      <div class="progect-subtitle">Сроки</div>
+                      <p class="progect-paragraf">4 рабочих дня</p>
+                    </div>
+                  </div>
+                  <!-- /.progect-time -->
+                  <div class="progect-cost">
+                    <img
+                      src="image/img/cost-icon.svg"
+                      alt="Стоимость"
+                      class="progect-icon"
+                    />
+                    <div class="progect-description">
+                      <div class="progect-subtitle">Стоимость</div>
+                      <p class="progect-paragraf">14 000 рублей</p>
+                    </div>
+                  </div>
+                  <!-- /.progect-cost -->
+                  <div class="progect-feedback">
+                    <img
+                      src="image/img/feedback-icon.svg"
+                      alt="Отзыв клиента"
+                      class="progect-icon"
+                    />
+                    <div class="progect-description">
+                      <div class="progect-subtitle">Отзыв клиента</div>
+                      <p class="progect-paragraf">
+                        Мне понравилось работать с Артемом, потому что он все
+                        время был на связи и предлагал свои решения, когда мы
+                        заходили в тупик с дизайном. Мне нужны были закрывающие
+                        документы для бухгалтерии, и Артем — тот редкий
+                        фрилансер, у которого с документами все в порядке
+                      </p>
+                    </div>
+                  </div>
+                  <!-- /.progect-feedback -->
+                </div>
+                <!-- /.progect-text -->
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="-pagination"></div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="section">
       <div class="container">
@@ -202,7 +326,8 @@
         <!-- /.contacts-block -->
       </div>
     </footer>
-    <script src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
