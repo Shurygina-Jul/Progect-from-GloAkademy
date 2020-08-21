@@ -89,7 +89,7 @@ body {
 }
 /* features */
 .features {
-  background-color: #0000;
+  background-color: #000000;
 }
 .features-block {
   display: flex;
@@ -165,25 +165,26 @@ body {
   font-size: 16px;
   line-height: 19px;
 }
+
 .progect-icon {
   margin-right: 16px;
 }
-.progect-pagination {
+.progects-pagination {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 44px;
 }
-.progect-bullet {
+.progects-bullet {
   width: 10px;
   height: 10px;
   border: 2px solid #ffbb01;
   border-radius: 50%;
-  display: inline-block;
   margin-left: 5px;
   margin-right: 5px;
+  display: inline-block;
 }
-.progect-bullet-active {
+.progects-bullet-active {
   background-color: #ffbb01;
 }
 /* contacts */
